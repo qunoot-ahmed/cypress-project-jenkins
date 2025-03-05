@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        BASE_URL = credentials('BASE_URL')
+        BASE_URL = credentials('BASE_URL') // Fetch from Jenkins credentials
     }
 
     stages {
